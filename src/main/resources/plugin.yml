@@ -1,0 +1,23 @@
+name: TowerAttackDefence
+version: ${project.version}
+authors:
+  - Minidon
+  - zumyu
+main: midorin.info.tad.TowerAttackDefence
+depend: [Jecon, WorldEdit]
+
+commands:
+  towerattackdefence:
+    description: ゲームの操作コマンド
+    aliases:
+      - tad
+  shop:
+    description: ショップを開くコマンド
+    aliases:
+      - s
+      - store
+  teams:
+    description: チーム選択コマンド
+    aliases:
+      - t
+      - team
